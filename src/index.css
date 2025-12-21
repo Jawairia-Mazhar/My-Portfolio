@@ -1,0 +1,9 @@
+@import "tailwindcss";
+*{
+    /* background-color: oklch(92.8% 0.006 264.531); */
+}
+.p1{
+    :hover{
+        text-shadow:0 0 10px black;
+    }
+}
