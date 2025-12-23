@@ -13,11 +13,12 @@ const Projects = () => {
             style={{ backgroundImage: "url('src/assets/P1CoffeeWeb.png')" }}> */}
                 <ProjectCard
                     title = "Coffee Shop Website" 
-                    image="src\assets\P1CoffeeWeb.png" alt="Coffee Shop Website" className="w-full h-full bg-cover"
-                    description="A responsive coffee shop website designed to showcase the menu, location, and ambiance of the café. Built with HTML, CSS, and JavaScript to provide an engaging user experience."
-                    role="UI/UX design, frontend development"
-                    tech="React, Tailwind CSS"
-                    outcome="Learned responsive layout and CTA optimization."
+                    image="src\assets\P1CoffeeWeb.png" alt="Coffee Shop Website" className=""
+                    description="A modern, responsive landing page designed to showcase a café's menu and ambiance through an interactive user experience. It features smooth scrolling, a dynamic search overlay, and a mobile-optimized menu."
+                    role="UI/UX Design & Frontend Development."
+                    tech="HTML5, CSS3 (Custom Variables), JavaScript (ES6+)"
+                    outcome="Successfully delivered a high-performance site with optimized CTA (Call-to-Action) buttons and seamless mobile navigation."
+                    linkToWeb="https://jawairia-mazhar.github.io/Responsive-Coffee-Shop-Website/"
                 />
 
             {/* </div> */}
@@ -25,10 +26,12 @@ const Projects = () => {
             <ProjectCard 
             title = "Travel Landing Page" 
             image="src\assets\P2Travel.png" className="w-110 h-75 object-cover"
-            description="A modern travel booking interface with destination highlights."
+            description="A dynamic, responsive travel landing page designed to inspire adventure through immersive visuals and interactive search tools. Built to provide a premium user experience across all devices."
             role="Layout design, component structuring"
-            tech="React, Tailwind CSS"
-            outcome="Practiced grid systems and dynamic content rendering."
+            tech="HTML, CSS (Flexbox/Grid), JavaScript (ScrollReveal)"
+            outcome="Mastered advance CSS positioning and practiced grid systems and dynamic content rendering."
+            linkToWeb="https://endearing-pony-af6261.netlify.app/"
+
             />
             <ProjectCard 
             title = "Foodie Zone Web" 

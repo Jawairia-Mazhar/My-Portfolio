@@ -5,12 +5,3 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
 }
-module.exports = {
-  theme: {
-    extend: { 
-      colors: {
-        maroon: '#800000',
-      },
-    },
-  },
-}
