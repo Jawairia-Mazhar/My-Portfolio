@@ -9,17 +9,17 @@ const Contact = () => {
         <div className="flex gap-4 mb-6">
           <img src="src\assets\gmail.png" alt="gmail"
           className="w-10 h-10"/>
-          <a href="mailto:Jawairiamazhar21@gmail.com" target="_blank" className="p-2">Gmail</a>
+          <a href="mailto:Jawairiamazhar21@gmail.com" target="_blank" className="p-2 hover:font-bold hover:text-red-600">Gmail</a>
         </div>
         {/* LinkedIn */}
         <div className="flex gap-4 mb-6">
           <img src="src\assets\linkedin.png" alt="linkedin" className="w-10 h-10" />
-          <a href="https://www.linkedin.com/in/jawairiamazhar21/" target="_blank" className="p-2">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/jawairiamazhar21/" target="_blank" className="p-2 hover:font-bold hover:text-blue-600">LinkedIn</a>
         </div>
         {/* Github */}
         <div className="flex gap-4 mb-6">
           <img src="src\assets\githubicon.png" alt="github" className="w-10 h-10" />
-          <a href="https://github.com/Jawairia-Mazhar" target="_blank" className="p-2">Github</a>
+          <a href="https://github.com/Jawairia-Mazhar" target="_blank" className="p-2 hover:font-bold">Github</a>
         </div>
         </div>
       </section>
