@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard'
 
 const Projects = () => {
   return (
-    <section className="mt-8 mb-10 md:scroll-mt-24 md:mb-40 " id="projects">
+    <section className="mt-8 mb-10 scroll-mt-16 md:scroll-mt-24 md:mb-40 " id="projects">
       <h1 className="text-2xl md:text-4xl font-medium text-center mb-4 md:mb-12">My Work</h1>
       <div className='grid gap-y-6 md:grid-cols-3 place-items-center md:gap-y-20 md:place-items-center'>
           

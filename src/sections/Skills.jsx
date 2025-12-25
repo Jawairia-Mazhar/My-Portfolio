@@ -3,11 +3,11 @@ import SkillCard from '../components/SkillCard.jsx'
 
 const Skills = () => {
   return (
-    <section id="skills" className="mt-8 m-4 md:mt-40 md:ml-20 md:mr-20 md:mb-40">
+    <section id="skills" className="mt-7 m-4 scroll-mt-24 md:mt-30 md:ml-20 md:mr-20 md:mb-40">
         <h1 className="text-2xl mb-2 md:text-4xl font-semibold md:font-bold text-center md:mb-8 ">My Technical Expertise</h1>
-        <p className="mb-3 md:mb-15 text-wrap md:text-lg/8 md:tracking-wide text-center">As an aspiring web developer, I utilize a modern and efficient technology stack to build robust and engaging user experiences. My core focus is on delivering highly performant, responsive, and maintainable code bases.</p>
+        <p className="mb-3 md:mb-15 text-wrap md:text-lg/8 md:tracking-wide text-center">As an aspiring web developer, I utilize a modern and efficient technology stack to build robust and engaging user experiences.My core focus is on delivering highly performant, responsive, and maintainable code bases.</p>
 
-        <div className="grid grid-cols-4 p-3 md:grid-cols-6 place-items-center align-center md:gap-y-20 md:place-items-center">
+        <div className="grid grid-cols-4 p-3 gap-y-5 md:grid-cols-6 place-items-center align-center md:gap-y-20 md:place-items-center">
             <SkillCard name="HTML" logo = "\src\assets\html.webp" color="red"/>
             <SkillCard name="CSS" logo = "\src\assets\css.jpg" color="blue"/>
             <SkillCard name="JavaScript" logo = "\src\assets\js.jpeg" color="yellow"/>

@@ -1,6 +1,7 @@
 const Hero = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center px-6 md:px-20 py-10" id="hero">
+    <section className="flex flex-col scroll-mt-24 md:flex-row justify-between items-center px-6 md:px-20 py-10" id="hero">
+        {/* <img src="\src\assets\tealwall.jpg" alt="Profile image" className="object-contain"/> */}
         <img className="w-70 h-70 mt-5 md:w-120 md:h-120 mx-auto object-contain md:mx-0 mb-6 md:mb-0" src="\src\assets\hijab_logo.png" alt="Cover image" />
 
         <div className="text-xs md:text-sm md:leading-10  md:mt-25">
