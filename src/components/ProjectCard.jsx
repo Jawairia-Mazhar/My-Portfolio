@@ -5,7 +5,7 @@ const ProjectCard = ({title, image, description, role, tech, outcome, linkToWeb}
 
   return (
     <div 
-        className="relative ease-in-out m-2 overflow-hidden p-2 shadow-xl rounded-md w-full h-80 md:w-110 md:h-90 cursor-pointer hover-shadow-2xl hover:scale-105 transition duration-300 flex flex-col items-center"
+        className="relative ease-in-out justify-center overflow-hidden p-1 shadow-xl rounded-md w-[90%] h-80 md:w-110 md:h-90 cursor-pointer hover-shadow-2xl hover:scale-105 transition duration-300 flex flex-col items-center"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         >
