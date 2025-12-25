@@ -1,5 +1,8 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
+import Project1 from '../assets/P1CoffeeWeb.png';
+import Project2 from '../assets/P2Travel.png';
+import Project3 from '../assets/P3Food.png'; 
 
 const Projects = () => {
   return (
@@ -9,7 +12,7 @@ const Projects = () => {
           
            <ProjectCard
              title = "Coffee Shop Website" 
-             image="src\assets\P1CoffeeWeb.png" alt="Coffee Shop Website"
+             image={Project1} alt="Coffee Shop Website"
              description="A modern, responsive landing page designed to showcase a café's menu and ambiance through an interactive user experience. It features smooth scrolling, a dynamic search overlay, and a mobile-optimized menu."
              role="UI/UX Design & Frontend Development."
              tech="HTML5, CSS3 (Custom Variables), JavaScript (ES6+)"
@@ -20,7 +23,7 @@ const Projects = () => {
             {/* </div> */}
             <ProjectCard 
             title = "Travel Landing Page" 
-            image="src\assets\P2Travel.png" className="md:w-110 md:h-75 object-cover"
+            image={Project2} className="md:w-110 md:h-75 object-cover"
             description="A dynamic, responsive travel landing page designed to inspire adventure through immersive visuals and interactive search tools. Built to provide a premium user experience across all devices."
             role="Layout design, component structuring"
             tech="HTML, CSS (Flexbox/Grid), JavaScript (ScrollReveal)"
@@ -30,7 +33,7 @@ const Projects = () => {
 
             <ProjectCard 
             title = "Foodie Zone Web" 
-            image="src\assets\P3Food.png"
+            image={Project3} className="md:w-110 md:h-75 object-cover"
             description="A dynamic food exploration interface featuring real-time category filtering and a responsive search system. Designed to provide a seamless menu browsing experience."
             role="Frontend Developer."
             tech="React, Tailwind CSS"
