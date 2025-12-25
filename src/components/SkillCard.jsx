@@ -15,9 +15,9 @@ const SkillCard = ({ name, logo, color }) => {
 
   return (
     <div
-      className={`w-35 h-38 p-5 rounded-md cursor-pointer border border-transparent hover:shadow-xl hover:scale-105 transition duration-300 ${classes}`}>
-      <img src={logo} className="w-25 h-25 mx-auto mb-2" alt={name} />
-      <span className={`block text-center ${classes.split(" ")[1]}`}>{name}</span>
+      className={`w-20 h-23 md:w-35 md:h-38 md:p-5 rounded-md cursor-pointer border border-transparent hover:shadow-xl hover:scale-105 transition duration-300 ${classes}`}>
+      <img src={logo} className="w-14 h-14 md:w-25 md:h-25 mx-auto mb-2" alt={name} />
+      <span className={`text-sm block text-center ${classes.split(" ")[1]}`}>{name}</span>
     </div>
   )
 }
