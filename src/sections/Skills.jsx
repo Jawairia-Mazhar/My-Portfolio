@@ -15,7 +15,7 @@ const Skills = () => {
             <SkillCard name="TailwindCSS" logo = "\src\assets\tailwind.jpg" color="teal"/>
             <SkillCard name="Github" logo = "\src\assets\githubicon.png" color="black"/>
 
-          <div className="grid grid-cols-2 col-span-2 md:col-span-6 md:grid-cols-2 md:gap-4 md:place-items-center">
+          <div className="grid grid-cols-2 col-span-2 gap-6 md:col-span-6 md:grid-cols-2 md:gap-4 md:place-items-center">
             <SkillCard name="git" logo = "\src\assets\git.png" color="red"/>
             <SkillCard name="Firebase" logo = "\src\assets\firebase.webp" color="yellow"/>
           </div>
