@@ -8,20 +8,20 @@ import Footer from "./components/Footer";
 
 function Layout() {
   return (
-    <>
+    <class>
       <Navbar />
       <Hero />
       <Skills />
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </class>
   );
 }
 
 export default function App() {
   return (
-    <Router>
+    <Router className="min-h-screen w-full overflow-x-hidden">
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path="/skills" element={<Layout />} />
