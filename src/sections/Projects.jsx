@@ -3,9 +3,9 @@ import ProjectCard from '../components/ProjectCard'
 
 const Projects = () => {
   return (
-    <section className="mb-40 " id="projects">
-      <h1 className="text-4xl font-medium text-center mb-12">My Work</h1>
-      <div className='grid grid-cols-3 align-center gap-y-20 place-items-center'>
+    <section className="mb-10 md:mb-40 " id="projects">
+      <h1 className="text-2xl md:text-4xl font-medium text-center mb-4 md:mb-12">My Work</h1>
+      <div className='grid md:grid-cols-3 align-center md:gap-y-20 md:place-items-center'>
             {/* <div 
             className="w-110 h-90 bg-cover border border-red-500 rounded-md shadow-xl hover:shadow-2xl transition duration-300" 
             style={{ backgroundImage: "url('src/assets/P1CoffeeWeb.png')" }}> */}
@@ -13,7 +13,7 @@ const Projects = () => {
             style={{ backgroundImage: "url('src/assets/P1CoffeeWeb.png')" }}> */}
                 <ProjectCard
                     title = "Coffee Shop Website" 
-                    image="src\assets\P1CoffeeWeb.png" alt="Coffee Shop Website" className=""
+                    image="src\assets\P1CoffeeWeb.png" alt="Coffee Shop Website"
                     description="A modern, responsive landing page designed to showcase a café's menu and ambiance through an interactive user experience. It features smooth scrolling, a dynamic search overlay, and a mobile-optimized menu."
                     role="UI/UX Design & Frontend Development."
                     tech="HTML5, CSS3 (Custom Variables), JavaScript (ES6+)"
@@ -22,10 +22,9 @@ const Projects = () => {
                 />
 
             {/* </div> */}
-            {/* </div> */}
             <ProjectCard 
             title = "Travel Landing Page" 
-            image="src\assets\P2Travel.png" className="w-110 h-75 object-cover"
+            image="src\assets\P2Travel.png" className="md:w-110 md:h-75 object-cover"
             description="A dynamic, responsive travel landing page designed to inspire adventure through immersive visuals and interactive search tools. Built to provide a premium user experience across all devices."
             role="Layout design, component structuring"
             tech="HTML, CSS (Flexbox/Grid), JavaScript (ScrollReveal)"
@@ -36,10 +35,10 @@ const Projects = () => {
             <ProjectCard 
             title = "Foodie Zone Web" 
             image="src\assets\P3Food.png"
-            description="A food ordering interface with category filters and search."
-            role="UI design, state handling"
+            description="A dynamic food exploration interface featuring real-time category filtering and a responsive search system. Designed to provide a seamless menu browsing experience."
+            role="Frontend Developer."
             tech="React, Tailwind CSS"
-            outcome="Built reusable components and learned filtering logic."
+            outcome="Built reusable components, implemented efficient array filtering logic and dynamic UI updates based on user input."
             />
       </div>
     </section>

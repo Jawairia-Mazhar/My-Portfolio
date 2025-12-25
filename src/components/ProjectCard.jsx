@@ -5,18 +5,18 @@ const ProjectCard = ({title, image, description, role, tech, outcome, linkToWeb}
 
   return (
     <div 
-        className="relative ease-in-out overflow-hidden p-1 shadow-xl rounded-md w-110 h-90 cursor-pointer hover-shadow-2xl hover:scale-105 transition duration-300 flex flex-col items-center"
+        className="relative ease-in-out m-2 overflow-hidden p-2 shadow-xl rounded-md w-full h-80 md:w-110 md:h-90 cursor-pointer hover-shadow-2xl hover:scale-105 transition duration-300 flex flex-col items-center"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         >
-        <p className="text-lg text-center">{title}</p>
+        <p className="md:text-lg text-center">{title}</p>
         {!hovered && (
-            <img className="w-110 h-75 mt-5 p-2" src={image} alt={title} />
+            <img className="w-full h-70 mt-2 md:w-110 md:h-75 md:mt-5 p-2" src={image} alt={title} />
         )} 
         
       {hovered && (
-        <div className="absolute inset-0 bg-white p-4 flex flex-col justify-center items-center text-center ">
-          <h2 className="text-xl font-bold mb-2">{title}</h2>
+        <div className="absolute md:inset-0 bg-white md:p-4 flex flex-col justify-center items-center text-center ">
+          <h2 className="md:text-xl font-bold mb-2">{title}</h2>
           <p className="text-sm mb-2">{description}</p>
           <p className="text-sm mb-2"><strong>Role:</strong> {role}</p>
           <p className="text-sm mb-2"><strong>Tech:</strong> {tech}</p>
