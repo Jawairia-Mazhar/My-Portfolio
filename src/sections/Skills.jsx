@@ -8,6 +8,7 @@ import tailwindIcon from '../assets/tailwind.jpg';
 import githubIcon from '../assets/githubicon.png';
 import gitIcon from '../assets/git.png';
 import firebaseIcon from '../assets/firebase.webp';
+import netlifyIcon from "../assets/netlify.webp";
 
 const Skills = () => {
   return (
@@ -22,12 +23,14 @@ const Skills = () => {
             <SkillCard name="React" logo = {reactIcon} color="cyan"/>
             <SkillCard name="TailwindCSS" logo = {tailwindIcon} color="teal"/>
             <SkillCard name="Github" logo = {githubIcon} color="black"/>
-
-          <div className="grid grid-cols-2 col-span-2 gap-6 md:col-span-6 md:grid-cols-2 md:gap-4 md:place-items-center">
             <SkillCard name="git" logo = {gitIcon} color="red"/>
             <SkillCard name="Firebase" logo = {firebaseIcon} color="yellow"/>
-          </div>
 
+          {/* <div className="grid grid-cols-2 col-span-4 gap-6 "> */}
+            <SkillCard name="Netlify" logo = {netlifyIcon} color ="blue"/>
+          
+          {/* </div> */}
+    
         </div>
     </section>
   )
