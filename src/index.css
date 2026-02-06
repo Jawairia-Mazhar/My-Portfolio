@@ -1,10 +1,15 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
 @layer base {
   *,
   *::before,
   *::after {
     box-sizing: border-box;
+  }
+  
+  h1, h2, p, a, span {
+    font-family: "Playfair Display", serif;
   }
 }
 
@@ -32,4 +37,11 @@
 
 .card-back {
   transform: rotateY(180deg);
+}
+
+.navlink:hover {
+  border-bottom: 2px solid #A6A6A6;
+}
+.navlink.blend {
+  mix-blend-mode: multiply;
 }
